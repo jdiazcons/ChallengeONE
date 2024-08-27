@@ -16,7 +16,7 @@ o	button.btn-copiar: Botón para copiar el resultado al portapapeles.
 a. Encriptar texto
 
 INICIO CODIGO
-function encriptar(texto) {
+````function encriptar(texto) {
     let textoEncriptado = texto
         .replace(/e/g, "enter")
         .replace(/i/g, "imes")
@@ -24,7 +24,7 @@ function encriptar(texto) {
         .replace(/o/g, "ober")
         .replace(/u/g, "ufat");
     return textoEncriptado;
-}
+}```
 
 TERMINO CODIGO
 
