@@ -24,7 +24,7 @@ INICIO CODIGO
         .replace(/o/g, "ober")
         .replace(/u/g, "ufat");
     return textoEncriptado;
-}```
+}````
 
 TERMINO CODIGO
 
